@@ -1,0 +1,9 @@
+name: PuzzleAPI
+main: com.sanjay900.puzzleapi.PuzzleAPI
+version: 0.1
+load: STARTUP
+depend: [EyrePlugin, ProtocolLib, Citizens, WorldEdit, nmsUtils]
+commands:
+   plo3t:
+      description: Plot management commands
+      usage: type /plot for help
